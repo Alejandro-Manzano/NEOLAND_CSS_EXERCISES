@@ -1,0 +1,33 @@
+:root {
+    --border: 1px solid black;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 7px;
+}
+
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header {
+    height: 11vh;
+    background-color: rosybrown;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border: var(--border);
+}
+
+.header > p {
+    margin-left: 16px;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.sidebar {
+    width: 300px;
+    background-color: aqua;
+}

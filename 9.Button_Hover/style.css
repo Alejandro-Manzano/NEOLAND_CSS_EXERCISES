@@ -1,0 +1,26 @@
+
+div {
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    /* Define el tamaño original del botón */
+    width: 200px;
+    height: 60px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    /* Define la transición */
+    transition: 300ms;
+  }
+  
+button:hover {
+    /* Aumenta la escala del botón al hacer hover */
+    transform: scale(1.2);
+  }
+
